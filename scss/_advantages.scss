@@ -1,0 +1,45 @@
+.advantages {
+
+    &__label {
+    }
+
+    &__subheading {
+        margin-bottom: 25px;
+    }
+
+    &__text {
+        margin-bottom: 25px;
+    }
+
+    &__strong {
+        color: #FFADAD;
+    }
+
+    &__list {
+        font-family: 'Grenze', sans-serif;
+        font-size: 16px;
+        line-height: 130%;
+        /* or 21px */
+
+        letter-spacing: 0.001em;
+
+        color: #FFFFFF;
+
+    }
+
+    &__item {
+        padding-left: 21px;
+        margin-left: 39px;
+
+        background-image: url("./../img/check.svg");
+        background-repeat: no-repeat;
+        background-position-y: 6px;
+
+        margin-bottom: 18px;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+

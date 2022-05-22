@@ -59,8 +59,38 @@ h6 {
           box-sizing: content-box;
 }
 
+.label {
+  font-family: 'Grenze', 'Times New Roman', Times, serif;
+  font-weight: 275;
+  font-size: 22px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFADAD;
+}
+
+.subheading {
+  font-family: 'New Rocker', 'Times New Roman', Times, serif;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
+
 .page__castles {
   margin-bottom: 64px;
+}
+
+.page__advantages {
+  margin-bottom: 86px;
 }
 
 .castles__label {
@@ -84,10 +114,6 @@ h6 {
 }
 
 .castles__text {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 16px;
-  line-height: 160%;
-  color: #FFFFFF;
   max-width: 668px;
   margin-bottom: 27px;
 }
@@ -113,4 +139,38 @@ h6 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.advantages__subheading {
+  margin-bottom: 25px;
+}
+
+.advantages__text {
+  margin-bottom: 25px;
+}
+
+.advantages__strong {
+  color: #FFADAD;
+}
+
+.advantages__list {
+  font-family: 'Grenze', sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+  letter-spacing: 0.001em;
+  color: #FFFFFF;
+}
+
+.advantages__item {
+  padding-left: 21px;
+  margin-left: 39px;
+  background-image: url("./../img/check.svg");
+  background-repeat: no-repeat;
+  background-position-y: 6px;
+  margin-bottom: 18px;
+}
+
+.advantages__item:last-child {
+  margin-bottom: 0;
 }
