@@ -59,6 +59,14 @@ h6 {
           box-sizing: content-box;
 }
 
+.gallery__container {
+  max-width: 626px;
+  margin: 0 auto;
+  padding: 0 20px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
 .label {
   font-family: 'Grenze', 'Times New Roman', Times, serif;
   font-weight: 275;
@@ -91,6 +99,10 @@ h6 {
 
 .page__advantages {
   margin-bottom: 86px;
+}
+
+.page__gallery {
+  margin-bottom: 67px;
 }
 
 .castles__label {
@@ -146,6 +158,8 @@ h6 {
 }
 
 .advantages__text {
+  max-width: 666px;
+  margin-left: 12px;
   margin-bottom: 25px;
 }
 
@@ -157,7 +171,6 @@ h6 {
   font-family: 'Grenze', sans-serif;
   font-size: 16px;
   line-height: 130%;
-  /* or 21px */
   letter-spacing: 0.001em;
   color: #FFFFFF;
 }
@@ -173,4 +186,71 @@ h6 {
 
 .advantages__item:last-child {
   margin-bottom: 0;
+}
+
+.gallery__subheading {
+  margin-bottom: 24px;
+}
+
+.gallery__text {
+  max-width: 600px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.gallery__wrap-image {
+  position: relative;
+  max-width: 582px;
+  height: 339px;
+  margin: 0 auto;
+  margin-bottom: 51px;
+}
+
+.gallery__wrap-image::after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  right: -25px;
+  z-index: -1;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+
+.gallery__image {
+  max-width: 100%;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+}
+
+.gallery__wrap-picture {
+  position: relative;
+  max-width: 585px;
+  height: 287px;
+  margin: 0 auto;
+}
+
+.gallery__wrap-picture::before {
+  content: '';
+  position: absolute;
+  left: -25px;
+  bottom: -7px;
+  z-index: -1;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+
+.gallery__picture {
+  max-width: 100%;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
 }

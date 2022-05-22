@@ -8,6 +8,8 @@
     }
 
     &__text {
+        max-width: 666px;
+        margin-left: 12px;
         margin-bottom: 25px;
     }
 
@@ -19,8 +21,6 @@
         font-family: 'Grenze', sans-serif;
         font-size: 16px;
         line-height: 130%;
-        /* or 21px */
-
         letter-spacing: 0.001em;
 
         color: #FFFFFF;
