@@ -1,0 +1,59 @@
+.castles {
+
+    &__label {
+        font-family: 'Grenze', 'Times New Roman', Times, serif;
+        font-weight: 275;
+        font-size: 30px;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+
+        color: #FFFF99;
+    }
+
+    &__heading {
+        font-family: 'New Rocker', 'Times New Roman', Times, serif;
+        font-size: 40px;
+        line-height: 120%;
+        text-align: center;
+
+        color: #FFFFFF;
+
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        line-height: 160%;
+
+        color: #FFFFFF;
+        max-width: 668px;
+        margin-bottom: 27px;
+    }
+
+    &__link {
+        text-decoration-line: underline;
+
+        color: #FDDC83;
+    }
+
+    &__wrap-image {
+        max-width: 586px;
+        height: 329px;
+
+        margin: 0 auto;
+    }
+
+    &__image {
+        border: 8px solid #FFFFFF;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 3px;
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
