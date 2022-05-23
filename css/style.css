@@ -105,6 +105,14 @@ h6 {
   margin-bottom: 67px;
 }
 
+.page__additional {
+  margin-bottom: 82px;
+}
+
+.page__excellence {
+  margin-bottom: 43px;
+}
+
 .castles__label {
   font-family: 'Grenze', 'Times New Roman', Times, serif;
   font-weight: 275;
@@ -360,4 +368,139 @@ h6 {
 
 .additional__item:last-child {
   margin-bottom: 0;
+}
+
+.excellence__subheading {
+  margin-bottom: 25px;
+}
+
+.excellence__text {
+  margin-bottom: 18px;
+}
+
+.excellence__wrap-image {
+  height: 229px;
+  margin-bottom: 45px;
+}
+
+.excellence__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.excellence__wrap-form {
+  max-width: 420px;
+  height: 260px;
+  margin: 0 auto;
+  background: #FAFAFA;
+  border: 2px solid #FFADAD;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  padding: 30px 30px 29px;
+}
+
+.excellence__title {
+  font-size: 24px;
+  color: #2C2C2C;
+  margin-bottom: 10px;
+}
+
+.excellence__desc {
+  margin: 0 auto;
+  width: 198px;
+  color: #222222;
+  margin-bottom: 12px;
+}
+
+.excellence__wrap-input {
+  position: relative;
+  max-width: 360px;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 18px;
+}
+
+.excellence__wrap-input::before {
+  content: '';
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  width: 22px;
+  height: 17px;
+  background: url("./../img/mail.svg") 0 0/contain no-repeat;
+}
+
+.excellence__input {
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  padding-left: 40px;
+  padding-right: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12px;
+  line-height: 100%;
+}
+
+.excellence__input:hover {
+  -webkit-box-shadow: 4px 4px 4px inset rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px inset rgba(0, 0, 0, 0.25);
+}
+
+.excellence__input:focus {
+  outline: #FAFAFA;
+}
+
+.excellence__input::-webkit-input-placeholder {
+  color: #B9B9B9;
+}
+
+.excellence__input:-ms-input-placeholder {
+  color: #B9B9B9;
+}
+
+.excellence__input::-ms-input-placeholder {
+  color: #B9B9B9;
+}
+
+.excellence__input::placeholder {
+  color: #B9B9B9;
+}
+
+.excellence__wrap-button {
+  max-width: 360px;
+  height: 40px;
+}
+
+.excellence__button {
+  width: 100%;
+  height: 100%;
+  background: #56597A;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  line-height: 133%;
+  color: #FFFFFF;
+}
+
+.excellence__span {
+  position: relative;
+  display: inline-block;
+  padding-right: 38px;
+}
+
+.excellence__span::after {
+  content: '';
+  position: absolute;
+  top: 1px;
+  right: 0;
+  width: 21px;
+  height: 21px;
+  background: url("./../img/exit.svg") 0 0/contain no-repeat;
 }
