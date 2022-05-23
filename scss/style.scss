@@ -1,14 +1,12 @@
 // * ===== fonts ===== * //
-@import url('https://fonts.googleapis.com/css2?family=Grenze&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
 
 
 // * ===== null ===== * //
 @import "_nullstyle";
 
-body {
-}
 
 
 // * ===== bem blocks ===== * //
@@ -27,7 +25,7 @@ body {
 @import "_castles";
 @import "_advantages";
 @import "_gallery";
+@import "_additional"
 
 
 // * ===== footer ===== * //
-@import "_footer";
