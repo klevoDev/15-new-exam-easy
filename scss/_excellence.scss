@@ -45,14 +45,16 @@
     }
 
     &__desc {
-        
+        text-align: center;
+
+        max-width: 198px;
         margin: 0 auto;
-        width: 198px;
 
         color: #222222;
 
         margin-bottom: 12px;
     }
+
 
     &__wrap-input {
         position: relative;
@@ -63,16 +65,16 @@
 
         margin-bottom: 18px;
 
-            &::before {
-                content: '';
-                position: absolute;
-                top: 11px;
-                left: 12px;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 11px;
+            left: 12px;
 
-                width: 22px;
-                height: 17px;
-                background: url('./../img/mail.svg') 0 0 /contain no-repeat;
-            }
+            width: 22px;
+            height: 17px;
+            background: url('./../img/mail.svg') 0 0 /contain no-repeat;
+        }
     }
 
     &__input {
@@ -89,17 +91,17 @@
         font-size: 12px;
         line-height: 100%;
 
-            &:hover {
-                box-shadow: 4px 4px 4px inset rgba(0, 0, 0, 0.25);
-            }
+        &:hover {
+            box-shadow: 4px 4px 4px inset rgba(0, 0, 0, 0.25);
+        }
 
-            &:focus {
-                outline: #FAFAFA;
-            }
+        &:focus {
+            outline: #FAFAFA;
+        }
 
-            &::placeholder {
-                color: #B9B9B9;
-            }
+        &::placeholder {
+            color: #B9B9B9;
+        }
     }
 
     &__wrap-button {
@@ -127,16 +129,16 @@
         display: inline-block;
         padding-right: 38px;
 
-            &::after {
-                content: '';
-                position: absolute;
-                top: 1px;
-                right: 0;
+        &::after {
+            content: '';
+            position: absolute;
+            top: 1px;
+            right: 0;
 
-                width: 21px;
-                height: 21px;
-                background: url('./../img/exit.svg') 0 0 / contain no-repeat;
-            }
+            width: 21px;
+            height: 21px;
+            background: url('./../img/exit.svg') 0 0 / contain no-repeat;
+        }
     }
 }
 

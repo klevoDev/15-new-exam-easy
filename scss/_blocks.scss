@@ -1,5 +1,6 @@
 .wrapper {
     margin: 60px 0 15px;
+    overflow: hidden;
 }
 
 .container {
@@ -10,13 +11,6 @@
 }
 
 .case {
-    max-width: 626px;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: content-box;
-}
-
-.footer_container {
     max-width: 615px;
     margin: 0 auto;
     padding: 0 20px;
@@ -24,7 +18,7 @@
 }
 
 .label {
-    font-family: 'Grenze', 'Times New Roman', Times, serif;
+    font-family: 'Grenze', serif;
     font-weight: 275;
     font-size: 22px;
     line-height: 100%;
@@ -36,7 +30,7 @@
 }
 
 .subheading {
-    font-family: 'New Rocker', 'Times New Roman', Times, serif;
+    font-family: 'New Rocker', cursive;
     font-size: 32px;
     line-height: 120%;
     text-align: center;

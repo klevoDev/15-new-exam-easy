@@ -18,23 +18,22 @@
     }
 
     &__list {
-        font-family: 'Grenze', sans-serif;
-        font-size: 16px;
+        font-family: 'Grenze', serif;
         line-height: 130%;
         letter-spacing: 0.001em;
 
         color: #FFFFFF;
-
     }
 
     &__item {
         padding-left: 21px;
         margin-left: 39px;
 
-        background-image: url("./../img/check.svg");
-        background-repeat: no-repeat;
-        background-position-y: 6px;
+        // background-image: url("./../img/check.svg");
+        // background-repeat: no-repeat;
+        // background-position-y: 6px;
 
+        background: url("./../img/check.svg") 0 6px no-repeat;
         margin-bottom: 18px;
 
         &:last-child{
