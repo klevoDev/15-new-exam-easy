@@ -18,7 +18,7 @@
 }
 
 .label {
-    font-family: 'Grenze', serif;
+    font-family: $fontGrenze;
     font-weight: 275;
     font-size: 22px;
     line-height: 100%;
@@ -26,22 +26,22 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
 
-    color: #FFADAD;
+    color: #ffadad;
 }
 
 .subheading {
-    font-family: 'New Rocker', cursive;
+    font-family: $fontNewRocker;
     font-size: 32px;
     line-height: 120%;
     text-align: center;
 
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .text {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: $fontJosefinSans;
     font-size: 16px;
     line-height: 160%;
 
-    color: #FFFFFF;
+    color: #ffffff;
 }

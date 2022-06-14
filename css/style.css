@@ -1,6 +1,51 @@
-@import url("https://fonts.googleapis.com/css2?family=Grenze:wght@200&;400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=New+Rocker&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap");
+@font-face {
+  font-display: swap;
+  font-family: "Grenze";
+  src: url("./../fonts/grenze-v14-latin-200.woff2") format("woff2"), url("./../fonts/grenze-v14-latin-200.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "grenze";
+  src: url("./../fonts/grenze-v14-latin-regular.woff2") format("woff2"), url("./../fonts/grenze-v14-latin-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "grenze";
+  src: url("./../fonts/grenze-v14-latin-400.woff2") format("woff2"), url("./../fonts/grenze-v14-latin-400.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "New Rocker";
+  src: url("./../fonts/new-rocker-v16-latin-regular.woff2") format("woff2"), url("./../fonts/new-rocker-v16-latin-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Josefin Sans";
+  src: url("./../fonts/Gjosefin-sans-v24-latin-300.woff2") format("woff2"), url("./../fonts/Gjosefin-sans-v24-latin-300.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Josefin Sans";
+  src: url("./../fonts/josefin-sans-v24-latin-regular.woff2") format("woff2"), url("./../fonts/josefin-sans-v24-latin-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -69,29 +114,29 @@ h6 {
 }
 
 .label {
-  font-family: 'Grenze', serif;
+  font-family: "Grenze", serif;
   font-weight: 275;
   font-size: 22px;
   line-height: 100%;
   text-align: center;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #FFADAD;
+  color: #ffadad;
 }
 
 .subheading {
-  font-family: 'New Rocker', cursive;
+  font-family: "New Rocker", cursive;
   font-size: 32px;
   line-height: 120%;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .text {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   line-height: 160%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .page__castles {
